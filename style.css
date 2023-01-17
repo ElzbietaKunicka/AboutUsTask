@@ -1,0 +1,59 @@
+:root {
+  /* Fonts */
+  --font-heading: "Roboto Slab", serif;
+  --font-body: "Open Sans", sans-serif;
+
+  /* Colors */
+  --color-primary: #696d7d;
+  --color-secondary: #d55672;
+  --color-tertiary: #8ea604;
+
+  --color-header: #4b644a;
+  --color-main: #f1e0c5;
+  --color-footer: #49393b;
+
+  --color-white: #ffffff;
+  --color-text: #232020;
+}
+.header-wrapper {
+  background-color: var(--color-header);
+}
+.header-wrapper a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  text-align: center;
+}
+
+p {
+  font-family: var(--font-body);
+  font-size: 14px;
+}
+
+.content-hero p {
+  font-size: 18px;
+}
+
+.content {
+  background-color: var(--color-main);
+}
+
+.foster-wrapper {
+  background-color: var(--color-footer);
+  color: var(--color-white);
+}
+.foster-wrapper p {
+  text-align: center;
+}
+.foster-wrapper a {
+  color: var(--color-white);
+  text-decoration: line-through;
+}
+.header-logo {
+  border-radius: 100%;
+}
